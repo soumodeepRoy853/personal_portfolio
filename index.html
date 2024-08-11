@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e9d7eecc3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+       <div class="container">
+        <nav>
+            <a href="#header" class="logo"><span>S</span>oumodeep</a>
+            <ul id="sideMenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#about">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full-stack Developer</p>
+            <h1>Hi, I'm <span>Soumodeep Roy </span><br> Student of Information Technology at <br>
+                Siliguri Institute of Technology.</h1>
+        </div>
+       </div> 
+    </div>
+
+<!-------------About Section---------------->
+    <div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/Front3 img.jpg">
+                </div>
+                <div class="col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        As an adept Full-Stack developer with a comprehensive understanding of Data Structures and Algorithms, 
+                        I'm brings a unique blend of technical expertise and problem-solving prowess to every project.
+                        With a keen eye for detail and a passion for innovation and seamlessly navigates the intricate landscape of 
+                        modern web development,from crafting intuitive user interfaces to architecting scalable backend solutions.
+                        My proficiency in a diverse array of programming languages and frameworks to deliver robust,
+                        user-centric applications that exceed expectations.
+                    </p>
+                    <div class="tab-titles">
+                      <p class="tab-links link" onclick="opentab('skills')">Skills</p>
+                      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content content" id="skills">
+                        <ul>
+                            <li><span>Full-stack development</span><br>Creating responsive web applications and also managing server-side.</li>
+                            <li><span>Front-end development</span><br>Creating the user interface and experience of a website.</li>
+                            <li><span>Backend development</span><br>Building & managing the server-side.</li>
+                            <li><span>Data Structure & Algorithms</span><br>DSA involve the study and implementation of data organization and manipulation techniques to solve computational problems efficiently.</li>
+                            <li><span>Frameworks</span><br>ExpressJs, ReactJs, NodeJs, TailwindCSS.</li>
+                            <li><span>languages</span><br>C++, JavaScript, HTML, CSS.</li>
+                            <li><span>Databases</span><br>SQL, MongoDB.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>April 2024 - May 2024</span><br>Full-Stack intern at Learntrics EduTech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2022 - 2025</span><br>B.Tech in IT at Siliguri Institute of Technology</li>
+                            <li><span>2019 - 2022</span><br>Diploma in ETCE at Jalpaiguri Polytechnic Institute</li>
+                            <li><span>2018</span><br>Higher secondary from WBCHSE board</li>
+                            <li><span>2016</span><br>Secondary from WBBSE board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------Services-------------------------->
+    <div id="services">
+        <div class="container3">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full-Stack Development</h2>
+                    <p>
+                        A fullstack developer is skilled in a range of technologies, including HTML, CSS, and JavaScript for front-end
+                        development, as well as server-side languages like Node.js, JavaScript and database management with SQL
+                        or MongoDB systems.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>Front-end Development</h2>
+                    <p>
+                        With expertise in HTML, CSS, and JavaScript, along with experience in modern frameworks like React and Vue.js,
+                        I ensure that every project is crafted to meet the unique needs of my clients.
+                    </p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Backend Development</h2>
+                    <p>
+                        With expertise in server-side language like Node.js as well as experience with databases
+                        such as SQL, MongoDB, I ensure that your application runs smoothly, securely, and efficiently.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------------------------Works------------------------------------>
+<div id="portfolio">
+    <div class="container4">
+       <h1 class="sub-title">My Works</h1>
+       <div class="work-list">
+        <div class="work">
+            <img src="images/website.jpg">
+            <div class="layer">
+                <h3>Blog App</h3>
+                <p>
+                    In this project I created a platform for users to create and publish their thoughts.
+                    It typically features tools for writingand formatting posts, managing comments, and organizing content
+                    into categories or tags.
+                </p>
+                <a href="https://github.com/soumodeepRoy853/BlogSide.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/frontend3.jpg">
+            <div class="layer">
+                <h3>Prototype Website</h3>
+                <p>In this project I use HTML & CSS. It is a prototype for a website. The main purpose for creating this type of
+                   this project is to build a strong knowledge on Web Development.</p>
+                   <a href="https://github.com/soumodeepRoy853/WebDev-1st-Project.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/voting.jpg">
+            <div class="layer">
+                <h3>Voting App</h3>
+                <p>Creating a backend voting app using Node.js and MongoDB involves setting up a server that can handle
+                    voting functionality, such as creating polls, casting votes, and retrieving poll results. 
+                    Voting app provides a functionality where user can give vote to the given set of Candidates.</p>
+                    <a href="https://github.com/soumodeepRoy853/VotingApp.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+       </div><br>
+       <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------------------------Contact Me------------------------------------>
+<div id="contact">
+    <div class="container5">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="links">
+                    <p> <i class="fa-solid fa-paper-plane"></i> roysoumodeep8@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +917718560353</p>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/soumodeeproy20"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.github.com/soumodeepRoy853"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.x.com/SoumodeepRoy10"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/soumodeeproy21"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="images/Soumodeep Resume.pdf" class="bnt2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="bnt2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy;2024 Soumodeep. All rights reserved</p>
+    </div>
+</div>
+
+<!-------------------------JavaScript--------------------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+
+        function opentab (tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("content");
+            }
+            event.currentTarget.classList.add("link");
+            document.getElementById(tabname).classList.add("content");
+        }
+    </script>
+
+    <script>
+        var menu = document.getElementById("sideMenu");
+        function openmenu(){
+            menu.style.right = "0";
+        }
+        function closemenu(){
+            menu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
